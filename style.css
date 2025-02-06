@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(30, 54%, 90%);
+    padding: 150px;
+    padding-top: 80px;
+    flex-direction: column; 
+   
+}
+@font-face {
+    font-family:"project-1";
+    src:
+    url("assets/fonts/outfit/static/Outfit-Light.ttf");
+}
+@font-face {
+    font-family:"project-2";
+    src:
+    url("assets/fonts/outfit/static/Outfit-Bold.ttf");
+}
+@font-face {
+    font-family: "project1";
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+.main{
+    width: 65%;
+    background-color: hsl(0, 0%, 100%) ;
+    height: 80%;
+    border-radius:30px ;
+    padding: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+.attribution{
+    margin: 50px;
+}
+.image{
+    background-image:url("assets/images/image-omelette.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 20px;
+}
+h1{
+    font-family: "project1";
+    font-weight: 550;
+}
+.bio{
+    font-family: "project-1";
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+}
+.pre{
+    margin-left: 30px;
+    font-weight: 400;
+    font-family: "project-1";
+    color:hsl(30, 10%, 34%);
+}
+.pre p{
+    font-family: "project-2";
+    font-weight: 600;
+    color:  hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+span{
+    font-family: "project-2";
+    font-weight: 500;
+    color:hsl(24, 5%, 18%);
+}
+p{
+    color:hsl(14, 45%, 36%) ;
+    font-family:"project-2" ;
+    font-weight: 600;
+    font-size: 25px;
+}
+ol{
+    margin-left: 30px;
+    font-weight: 400;
+    font-family: "project-1";
+    color: hsl(30, 10%, 34%);
+    margin-left: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+}
+ul{
+    margin-left: 30px;
+    font-weight: 400;
+    font-family: "project-1";
+    color: hsl(30, 10%, 34%);
+    margin-left: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0%;
+}
+hr{
+    border:none;
+    height: 0.5px;
+    margin: 20px auto;
+    width:80%;
+    background-color: hsl(30, 18%, 87%);
+}
+.nu{
+    font-family: "project-2";
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+}
+.p{
+    margin-bottom: 10px;
+    padding: 0%;
+}
+table{
+    margin-left: 30px;
+    height: 150px;
+}
+td{
+    font-weight: 400;
+    font-family: "project-1";
+    color: hsl(30, 10%, 34%);
+    margin: 30px;
+}
+.co{
+    color:hsl(14, 45%, 36%);
+    font-family: "project-2";
+    font-weight: 600;
+}
+@media (min-width:200px) and (max-width:1100px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .main{
+        width:95%;
+        overflow-x: hidden;
+        margin: 0%;
+        border-radius: 0;
+        padding: 0%;
+        padding-left:5% ;
+        padding-bottom: 5%;
+    }
+    .image{
+        height: 200px;
+        padding: 0%;
+        margin: 0%;
+        width:100%;
+        border-radius: 0%;
+        
+    }
+}
